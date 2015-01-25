@@ -35,6 +35,13 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="HelloWorld\HelloWorldChromosome.cs" />
+    <Compile Include="HelloWorld\HelloWorldCrosser.cs" />
+    <Compile Include="HelloWorld\HelloWorldElitism.cs" />
+    <Compile Include="HelloWorld\HelloWorldFactory.cs" />
+    <Compile Include="HelloWorld\HelloWorldFitnessCalculator.cs" />
+    <Compile Include="HelloWorld\HelloWorldMutator.cs" />
+    <Compile Include="HelloWorld\HelloWorldSelector.cs" />
     <Compile Include="Interfaces\IElitism.cs" />
     <Compile Include="Interfaces\IFactory.cs" />
     <Compile Include="Interfaces\ICrosser.cs" />
