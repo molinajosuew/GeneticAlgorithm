@@ -35,21 +35,12 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld\HelloWorldChromosome.cs" />
-    <Compile Include="HelloWorld\HelloWorldCrosser.cs" />
-    <Compile Include="HelloWorld\HelloWorldElitism.cs" />
-    <Compile Include="HelloWorld\HelloWorldFactory.cs" />
-    <Compile Include="HelloWorld\HelloWorldFitnessCalculator.cs" />
-    <Compile Include="HelloWorld\HelloWorldMutator.cs" />
-    <Compile Include="HelloWorld\HelloWorldSelector.cs" />
-    <Compile Include="Interfaces\IElitism.cs" />
-    <Compile Include="Interfaces\IFactory.cs" />
-    <Compile Include="Interfaces\ICrosser.cs" />
-    <Compile Include="Interfaces\IFitnessCalculator.cs" />
-    <Compile Include="Interfaces\IMutator.cs" />
-    <Compile Include="Components\GeneticAlgorithm.cs" />
-    <Compile Include="Interfaces\ISelector.cs" />
-    <Compile Include="Components\Population.cs" />
+    <Compile Include="GeneticAlgorithm.cs" />
+    <Compile Include="Interfaces\ICrossoverAlgorithm.cs" />
+    <Compile Include="Interfaces\ISelectionAlgorithm.cs" />
+    <Compile Include="Interfaces\IFitnessAlgorithm.cs" />
+    <Compile Include="Interfaces\IElitismAlgorithm.cs" />
+    <Compile Include="Interfaces\IMutationAlgorithm.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
