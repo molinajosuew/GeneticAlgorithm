@@ -64,5 +64,9 @@ namespace GeneticAlgorithm
             FutureGeneration = new List<ChromosomeType>();
             CurrentGeneration.Sort((a, b) => EvaluateFitness(b).CompareTo(EvaluateFitness(a)));
         }
+        public List<ChromosomeType> GetCurrentGeneration()
+        {
+            return CurrentGeneration;
+        }
     }
 }
